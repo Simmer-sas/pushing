@@ -1,13 +1,17 @@
 <template>
   <div id="app">
-    <h1>信息发布管理系统</h1>
     <router-view/>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'App'
+  name: 'App',
+  data () {
+    return {
+      count: 1
+    }
+  }
 }
 </script>
 <style lang="less">
